@@ -25,7 +25,7 @@ password: "{{cfg.password}}"
 # api configuration
 #
 api-host: "{{cfg.api-host}}"
-api-port: {{cfg.port}}
+api-port: {{cfg.api-port}}
 disable-api: {{cfg.disable-api}}
 
 #
@@ -47,7 +47,7 @@ statsd-metrics-port: {{cfg.statsd-metrics-port}}
 #
 # other
 #
-cache-dir: "{{pkg.svc_data_path}}/sensu"
+cache-dir: '{{pkg.svc_data_path}}/sensu'
 deregister: "{{cfg.deregister}}"
 deregistration-handler: "{{cfg.deregistration-handler}}"
 keepalive-timeout: {{cfg.keepalive-timeout}}
